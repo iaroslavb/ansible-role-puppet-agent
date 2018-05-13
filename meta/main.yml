@@ -1,10 +1,10 @@
 galaxy_info:
   author: Yaroslav Bannov
-  description: Puppet client installation on Ubuntu Linux
+  description: Puppet agent installation on Ubuntu Linux
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
-  issue_tracker_url: https://github.com/iaroslavb/ansible-role-puppet-client/issues
+  issue_tracker_url: https://github.com/iaroslavb/ansible-role-puppet-agent/issues
 
   # Some suggested licenses:
   # - BSD (default)
