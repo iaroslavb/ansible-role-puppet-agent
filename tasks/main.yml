@@ -1,0 +1,13 @@
+---
+# tasks file for ansible-role-puppet-client/
+
+- name: Download the Puppet platform release package and install it
+  apt:
+    deb: https://apt.puppetlabs.com/puppet5-release-xenial.deb
+
+- name: Install puppet-agent
+  apt:
+    name:         puppet-agent
+    update_cache: yes
+    state:        latest
+
